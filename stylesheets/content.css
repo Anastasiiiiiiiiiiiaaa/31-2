@@ -1,0 +1,91 @@
+*{
+    box-sizing: border-box;
+}
+html, body{
+    height: 100vh;
+    overflow-x: hidden;
+    /* overflow-y: hidden; */
+    width: 100vw;
+    display: block;
+    margin: 0 auto;
+    margin: 0;
+    padding: 0;
+    font-size: 0vw;
+    background-color: black;
+}
+@font-face {
+    font-family: "Arial";
+    src: url("../fonts/Arial.ttf");
+    font-style: normal;
+    font-weight: normal;
+}
+@font-face {
+    font-family: "Arial bold";
+    src: url("../fonts/Arial_Bold.ttf");
+    font-style: normal;
+    font-weight: bold;
+}
+
+p, a{
+    font-family: Arial;
+    color: white;
+    font-weight: 900;
+    text-decoration: none;
+}
+/* main page */
+.burger{
+    position: absolute;
+    /* position: relative;
+    z-index: 10; */
+    display: block;
+    margin-top: 5vh;
+    margin-left: 5vw;
+}
+.menu{
+    font-size: 1.6vw;
+    margin-top: 0.5vh;
+}
+.logo{
+    position: absolute;
+    /* position: relative;
+    z-index: 10; */
+    margin-top: 5.5vh;
+    margin-left: 50vw;
+}
+.gate{
+    width: 78%;
+}
+/* contact */
+.information{
+    position: absolute;
+    /* position: relative;
+    z-index: 10; */
+    display: block;
+    margin-top: 5.5vh;
+    margin-left: 31vw;
+}
+.info{
+    font-size: 1.6vw;
+    line-height: 1.15;
+}
+.top{
+    margin-top: 3vh;
+}
+.con, .fon{
+    width: 108vw;
+    height: 100vh;
+}
+.con{
+    /* position: relative;
+    z-index: 1; */
+    position: absolute;
+}
+.word{
+    position: relative;
+    width: 100vw;
+    margin-top: 32vh;
+}
+.contact{
+    width: 100%;
+}
+
